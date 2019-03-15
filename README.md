@@ -1,2 +1,0 @@
-# CogentWebApp
-Created with CodeSandbox
