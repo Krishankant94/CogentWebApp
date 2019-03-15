@@ -3,51 +3,58 @@ import React, { Component } from "react";
 class CurrentSec extends Component {
   render() {
     return (
-      <div className="md-col current-sec">
+      <div className="md-col current-sec p-3 bg-primary">
         <div className="row">
-          <div class="col-sm">
-            <div class="row">
-              <div class="col">Wind</div>
-              <div class="col">Humidity</div>
-              <div class="col">Dew Point</div>
+          <div className="col-sm">
+            <div className="row">
+              <div className="col">Wind</div>
+              <div className="col">Humidity</div>
+              <div className="col">Dew Point</div>
             </div>
-            <div class="row">
-              <div class="col">val1</div>
-              <div class="col">val2</div>
-              <div class="col">val3</div>
+            <div className="row">
+              <div className="col">val1</div>
+              <div className="col">val2</div>
+              <div className="col">val3</div>
             </div>
             <hr />
-            <div class="row">
-              <div class="col">wind</div>
-              <div class="col">Humidity</div>
-              <div class="col">Dew point</div>
+            <div className="row">
+              <div className="col">wind</div>
+              <div className="col">Humidity</div>
+              <div className="col">Dew point</div>
             </div>
-            <div class="row">
-              <div class="col">val1</div>
-              <div class="col">val2</div>
-              <div class="col">val3</div>
+            <div className="row">
+              <div className="col">val1</div>
+              <div className="col">val2</div>
+              <div className="col">val3</div>
             </div>
           </div>
-          <div class="col-sm">hkj</div>
-          <div class="col-sm">
-            <div class="row">
-              <div class="col">NOW</div>
+          <div className="col-sm">
+            <div className="row">
+              <div className="col ">IMAGE</div>
             </div>
-            <div class="row">
-              <div class="col">86</div>
+            <div className="row">
+              <div className="col">Weather Summary</div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="row">
+              <div className="col">NOW</div>
+            </div>
+            <div className="row">
+              <div className="col">86</div>
 
-              <div class="col">BANgalore</div>
+              <div className="col">BANgalore</div>
             </div>
             <hr />
-            <div class="row">
-              <div class="col">ONE</div>
-              <div class="col">TWO</div>
-              <div class="col">THREE</div>
+            <div className="row">
+              <div className="col">ONE</div>
+              <div className="col">TWO</div>
+              <div className="col">THREE</div>
             </div>
-            <div class="row">
-              <div class="col">val1</div>
-              <div class="col">val2</div>
-              <div class="col">val3</div>
+            <div className="row">
+              <div className="col">val1</div>
+              <div className="col">val2</div>
+              <div className="col">val3</div>
             </div>
           </div>
         </div>
